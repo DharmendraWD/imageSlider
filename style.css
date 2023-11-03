@@ -75,10 +75,7 @@ opacity: .6;
         display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    }
-    #slider{
-        position: relative;
+    margin-top: 65%;
     }
     .indicators {
         top: 50%;
@@ -89,8 +86,6 @@ opacity: .6;
         top: unset;
         bottom: -2px;
     }
-    /* taste2  */
-    /* taste2  */
     .nextPrev img{
         max-width: 15px;
     }
