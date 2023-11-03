@@ -9,6 +9,7 @@ body{
     background-position: center;
     background-size: cover;
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 position: fixed;
 box-sizing: border-box;
 }
@@ -71,6 +72,13 @@ opacity: .6;
 @media(max-width:700px){
     .slider-box{
         width: 90%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    #slider{
+        position: relative;
     }
     .indicators {
         top: 50%;
